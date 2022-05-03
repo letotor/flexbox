@@ -5,19 +5,25 @@
 
 .blocs {
     height: 100px;
+    width: 100%;
 }
 
 .box-1 {
-    flex: 1;
+    flex:1;
     background-color: peru;
 }
 
 .box-2 {
-    flex: 1;
+    flex:3;
     background-color: paleturquoise;
 }
 
 .box-3 {
-    flex: 2;
+    flex:2;
     background-color: palevioletred;
+}
+
+.box-4 {
+    flex:1;
+    background-color: lightgray;
 }
