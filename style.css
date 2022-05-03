@@ -1,6 +1,11 @@
 .bloc-container {
+    margin: auto;
+    width:500px;
     display: flex;
-    justify-content: center;
+    border: 1px solid black;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .blocs {
