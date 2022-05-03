@@ -1,26 +1,21 @@
-.header {
+.bloc-container {
+    display: flex;
+    justify-content: center;
+}
+
+.blocs {
+    width: 100px;
     height: 100px;
-    background-color: lavender;
 }
 
-.container {
-    height: 300px;
-    float: left;
-    width:80%;
-    background-color: burlywood;
-    overflow: hidden;
+.bg-peru {
+    background-color: peru;
 }
 
-.recommendation {
-    float: right;
-        width:20%;
-    height: 300px;
-
-    background-color: lightcoral;
+.bg-turquoise {
+    background-color: paleturquoise;
 }
 
-.footer {
-    clear: both;
-    height: 100px;
-    background-color: lightgreen;
+.bg-violetred {
+    background-color: palevioletred;
 }
