@@ -1,29 +1,24 @@
 .bloc-container {
     display: flex;
-    justify-content: center;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    border: 1px solid black;
+    height: 500px;
 }
 
 .blocs {
-    height: 100px;
     width: 100%;
+    height: 100px;
 }
 
-.box-1 {
-    flex:1;
+.bg-peru {
     background-color: peru;
 }
 
-.box-2 {
-    flex:3;
+.bg-turquoise {
     background-color: paleturquoise;
 }
 
-.box-3 {
-    flex:2;
+.bg-violetred {
     background-color: palevioletred;
-}
-
-.box-4 {
-    flex:1;
-    background-color: lightgray;
 }
