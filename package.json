@@ -1,0 +1,14 @@
+{
+  "name": "float",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "victor DG <v.degermain@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  }
+}

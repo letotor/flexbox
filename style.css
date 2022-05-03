@@ -5,11 +5,17 @@
 
 .container {
     height: 300px;
+    float: left;
+    width:80%;
     background-color: burlywood;
+    overflow: hidden;
 }
 
 .recommendation {
+    float: right;
+        width:20%;
     height: 300px;
+
     background-color: lightcoral;
 }
 
