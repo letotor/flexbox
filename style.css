@@ -1,26 +1,23 @@
 .bloc-container {
-    margin: auto;
-    width:500px;
     display: flex;
-    border: 1px solid black;
-    height: 200px;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
 }
 
 .blocs {
-    width: 100px;
     height: 100px;
 }
 
-.bg-peru {
+.box-1 {
+    flex: 1;
     background-color: peru;
 }
 
-.bg-turquoise {
+.box-2 {
+    flex: 1;
     background-color: paleturquoise;
 }
 
-.bg-violetred {
+.box-3 {
+    flex: 2;
     background-color: palevioletred;
 }
